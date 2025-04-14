@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAMING CONTAENR</title>
+    <style>
+        @font-face {
+            src: url(Fonts/Cairo_Play/static/CairoPlay-Bold.ttf);
+            font-family: Cairo;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Cairo;
+        }
+        body{
+            background: purple;
+        }
+        header{
+            background: rgba(255, 255, 255, 0.5);
+  
+        }
+        .text{
+            display:flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 50px;
+            color: white;
+            flex-wrap: wrap;
+        }
+        .text .logo{
+            display: flex;
+            color: gold;
+            text-shadow: 2px 2px 0 black;
+            font-size: 30px;
+        }
+        .text ul{
+            display: flex;
+        }
+        .text ul li{
+            margin: 0 10px;
+            list-style: none;
+        }
+        .text ul li button{
+            background: none;
+            width: 150px;
+            padding: 5px 10px;
+            border: 2px solid black;
+            border-radius: 20px;
+            transition: 0.5s;
+            font-size: 20px;
+        }
+        .text ul li button:hover{
+            background: white;
+        }
+        .text .links a{
+            color: white;
+            margin: 0 10px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header class="contenr">
+        <div class="text">
+            <div class="logo">
+                <h1>G</h1>
+                <h1>C</h1>
+            </div>
+                <ul>
+                    <li><button>home</button></li>
+                    <li><button>games</button></li>
+                    <li><button>about</button></li>
+                    <li><button>your acconet</button></li>
+                </ul>
+            <div class="links">
+                <a href="#">facebook</a>
+                <a href="#">instgram</a>
+                <a href="#">tik tok</a>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
